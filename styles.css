@@ -1,0 +1,69 @@
+body {
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+    background: orange;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    
+}
+#hero {
+     background-image: url("images/GuangzhouEve.jpg");
+     background-size: cover;
+     padding: 100px 0 300px 0;
+     margin: 0;
+}
+
+#visitGZ span {
+background: pink;
+padding: 5px 10px;
+border-radius: 5px;
+}
+ 
+#GZText span {
+background: pink;
+padding: 5px 10px;
+border-radius: 5px;
+}
+#activites {
+     background-image: url("images/Baiyun.jpg");
+     background-size: cover;
+     padding: 100px 0 300px 0;
+     margin: 0 auto;
+     display: flex;
+     text-align: center;
+     justify-content: space-around;
+}
+ #guide {
+     background-image: url("images/Bridge.jpg");
+     background-size: cover;
+     padding: 100px 0 300px 0;
+}
+img {
+    width:  250px;
+    height: 250px;
+    object-fit: cover;
+}
+#pop1:hover{
+   transform: scale(1.5);
+ }
+ 
+ #pop2:hover{
+   transform: scale(1.5);
+ }
+ 
+ #pop3:hover{
+   transform: scale(1.5);
+ }
+ .avatar {
+    border-radius: 50%;
+}
+.card {
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+ }
